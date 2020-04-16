@@ -8,7 +8,7 @@ const Buttom =() =>{
         <View style={styles.back}>
            <TouchableOpacity  onPress={() => alert('This is a button!')}>
            <Image
-                        source={require('../../img/icon_bottomnav_home.png')}
+                        source={require('./img/icon_bottomnav_home.png')}
                         style={styles.statuspic}
                         />
                 <Text style={styles.home}>Home</Text>
@@ -21,7 +21,7 @@ const Buttom =() =>{
            <View style={styles.back}>
            <TouchableOpacity  onPress={() => alert('This is a button!')}>
            <Image
-                        source={require('../../img/icon_bottomnav_mybook.png')}
+                        source={require('./img/icon_bottomnav_mybook.png')}
                         style={styles.statuspic}
                         />
                 <Text style={styles.mybook}>My Book</Text>
@@ -34,7 +34,7 @@ const Buttom =() =>{
         <View style={styles.back}>
            <TouchableOpacity  onPress={() => alert('This is a button!')}>
            <Image
-                        source={require('../../img/icon_bottomnav_favorites.png')}
+                        source={require('./img/icon_bottomnav_favorites.png')}
                         style={styles.statuspic}
                         />
                 <Text style={styles.favorite}>Favorites</Text>

@@ -2,11 +2,11 @@ import React from 'react';
 import { StyleSheet, Text, View,FlatList,Button ,Image} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import bookData from "./src/json/booklist.json.json";
+import bookData from "./json/booklist.json";
 import { navigationRef } from './RootNavigation';
-import BookScreen from './src/screens/BookScreen';
+import BookScreen from './screens/BookScreen';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import DrawerScreen from './src/screens/DrawerScreen';
+import DrawerScreen from './screens/DrawerScreen';
 const Stack = createStackNavigator();
 const App = () => {
   return (

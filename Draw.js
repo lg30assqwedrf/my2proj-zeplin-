@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Image,ScrollView,TouchableOpacity} from "react-native";
-import Data from "../json/books.json";
+import Data from "./json/booklist.json";
 const Draw =() =>{
     
     return(
@@ -13,27 +13,27 @@ const Draw =() =>{
            </View>
            <View style={styles.bottom}>
                <View style={{ flexDirection:'row'}}>
-            <Image source={require('../../img/icon_drawer_home.png')}
+            <Image source={require('./img/icon_drawer_home.png')}
                    style={styles.home}/>
             <Text style={styles.homet}>{Data.DrawerList[0].home}</Text>
                 </View>
                 <View style={{ flexDirection:'row'}}>
-            <Image source={require('../../img/icon_bottomnav_mybook.png')}
+            <Image source={require('./img/icon_bottomnav_mybook.png')}
                    style={styles.home}/>
             <Text style={styles.homet}>{Data.DrawerList[0].mybook}</Text>
                 </View>
                 <View style={{ flexDirection:'row'}}>
-            <Image source={require('../../img/icon_drawer_favorites.png')}
+            <Image source={require('./img/icon_drawer_favorites.png')}
                    style={styles.home}/>
             <Text style={styles.homet}>{Data.DrawerList[0].favorites}</Text>
                 </View>
                 <View style={{ flexDirection:'row'}}>
-            <Image source={require('../../img/icon_drawer_setting.png')}
+            <Image source={require('./img/icon_drawer_setting.png')}
                    style={styles.home}/>
             <Text style={styles.homet}>{Data.DrawerList[0].setting}</Text>
                 </View>
                 <View style={{ flexDirection:'row'}}>
-            <Image source={require('../../img/icon_drawer_aboutus.png')}
+            <Image source={require('./img/icon_drawer_aboutus.png')}
                    style={styles.home}/>
             <Text style={styles.homet}>{Data.DrawerList[0].about}</Text>
                 </View>

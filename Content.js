@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Image,ScrollView} from "react-native";
-import bookData from "../json/books.json";
+import bookData from "./json/booklist.json";
 const Contents =() =>{
     
     return(
@@ -35,7 +35,7 @@ const Contents =() =>{
                     <Text style={styles.des}>{bookData.bookList[1].description}</Text>
                     <View style={styles.statusshow}></View>
                     <Image
-                        source={require('../../img/btn_start_read.png')}
+                        source={require('./img/btn_start_read.png')}
                         style={styles.statuspic}
                         />
                 </View>
@@ -53,7 +53,7 @@ const Contents =() =>{
                     <Text style={styles.des}>{bookData.bookList[2].description}</Text>
                     <View style={styles.statusshow}></View>
                     <Image
-                        source={require('../../img/btn_start_read.png')}
+                        source={require('./img/btn_start_read.png')}
                         style={styles.statuspic}
                         />
                 </View>

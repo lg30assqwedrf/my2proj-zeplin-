@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View,FlatList } from 'react-native';
-import Header from '../components/Header';
-import bookData from '../json/booklist.json.json';
-import Contnet from '../components/Contents';
-import Buttom from '../components/Buttom';
+import Header from '../Header';
+import bookData from '../json/booklist.json';
+import Contnet from '../Content';
+import Buttom from '../Buttom';
 const Mybook = ({navigation}) => {
   return (
      
